@@ -3,3 +3,17 @@
     width: auto;
     display: block;
 }
+
+.gallery-main{
+    width:100%;
+    border-radius:18px;
+    overflow:hidden;
+    border:1px solid var(--line);
+    background:var(--paper);
+}
+
+.gallery-main img{
+    width:100%;
+    aspect-ratio:1;
+    object-fit:cover;
+}
