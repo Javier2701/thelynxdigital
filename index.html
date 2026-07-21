@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -346,7 +347,25 @@ footer{background:var(--ink);color:#fff;padding:64px 0 34px}
 <section id="product">
   <div class="wrap buy-grid">
     <div class="reveal">
-      <div class="gallery-main"><img id="galleryImg" data-k="front" src="" alt="LYNX X6 power bank, graphite finish, front view"></div>
+      <div class="swiper gallery-main">
+          <div class="swiper-wrapper">
+      
+              <div class="swiper-slide">
+                  <img data-k="front" src="" alt="">
+              </div>
+      
+              <div class="swiper-slide">
+                  <img data-k="cable" src="" alt="">
+              </div>
+      
+              <div class="swiper-slide">
+                  <img data-k="hero" src="" alt="">
+              </div>
+      
+          </div>
+      
+          <div class="swiper-pagination"></div>
+      </div>
       <div class="thumbs">
         <button class="thumb active" data-img="front" aria-label="Front view"><img data-k="front" src="" alt=""></button>
         <button class="thumb" data-img="cable" aria-label="Attached to phone with cable"><img data-k="cable" src="" alt=""></button>
