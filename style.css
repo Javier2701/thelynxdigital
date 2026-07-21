@@ -1,5 +1,5 @@
 .brand img {
-    height: 50px;
+    height: 40px;   /* Try 35px, 40px, or 45px */
     width: auto;
     display: block;
 }
