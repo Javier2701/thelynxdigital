@@ -1,0 +1,247 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — charging guides and engineering notes | LYNX</title>
+<meta name="description" content="Practical guides to wireless charging, power bank capacity, USB Power Delivery and flying with lithium batteries, from the team behind the LYNX X6.">
+<meta name="keywords" content="power bank blog, wireless charging guide, USB PD explained, power bank travel rules, mAh explained">
+<link rel="canonical" href="https://thelynxdigital.com/blog/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog — charging guides and engineering notes | LYNX">
+<meta property="og:description" content="Practical guides to wireless charging, power bank capacity, USB Power Delivery and flying with lithium batteries, from the team behind the LYNX X6.">
+<meta property="og:url" content="https://thelynxdigital.com/blog/">
+<meta property="og:site_name" content="LYNX">
+<meta property="og:image" content="https://thelynxdigital.com/images/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog — charging guides and engineering notes | LYNX">
+<meta name="twitter:description" content="Practical guides to wireless charging, power bank capacity, USB Power Delivery and flying with lithium batteries, from the team behind the LYNX X6.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="blog.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Blog","@id":"https://thelynxdigital.com/blog/#blog","name":"LYNX Blog",
+  "description":"Practical guides to wireless charging, battery capacity and travelling with power banks.",
+  "url":"https://thelynxdigital.com/blog/",
+  "publisher":{"@type":"Organization","name":"LYNX","url":"https://thelynxdigital.com/","logo":{"@type":"ImageObject","url":"https://thelynxdigital.com/images/logo.png"}}},
+ {"@type":"ItemList","itemListElement":[
+    {"@type":"ListItem","position":1,"url":"https://thelynxdigital.com/blog/power-bank-on-a-plane-100wh-rule/","name":"Can you bring a power bank on a plane? The 100 Wh rule, explained"},
+    {"@type":"ListItem","position":2,"url":"https://thelynxdigital.com/blog/mah-vs-real-capacity/","name":"Why a 10,000 mAh power bank does not charge your phone three times"},
+    {"@type":"ListItem","position":3,"url":"https://thelynxdigital.com/blog/magnetic-vs-qi-wireless-charging/","name":"Magnetic vs Qi wireless charging: what the alignment actually does"},
+    {"@type":"ListItem","position":4,"url":"https://thelynxdigital.com/blog/20w-pd-fast-charging-explained/","name":"20W Power Delivery, explained without the marketing"},
+    {"@type":"ListItem","position":5,"url":"https://thelynxdigital.com/blog/why-aluminium-power-bank-shell/","name":"Why we build the shell out of aluminium"}
+ ]},
+ {"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://thelynxdigital.com/"},
+  {"@type":"ListItem","position":2,"name":"Blog","item":"https://thelynxdigital.com/blog/"}
+ ]}
+]}
+</script>
+</head>
+<body>
+<div class="announce">Free worldwide shipping on orders over $50 &#8212; <b>flight-safe under 100 Wh</b></div>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="brand" href="../" aria-label="Lynx home">
+      <img src="../images/logo.png" alt="Lynx" width="120" height="50">
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#product">Product</a>
+      <a href="../index.html#features">Features</a>
+      <a href="../index.html#specs">Specs</a>
+      <a href="../index.html#certs">Certifications</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog/index.html" aria-current="page">Blog</a>
+    </div>
+    <a class="btn btn-primary nav-cta" href="../index.html#product">Buy the X6</a>
+  </div>
+</nav>
+
+<header class="blog-head">
+  <div class="wrap">
+    <div class="eyebrow">LYNX // Blog</div>
+    <h1>Notes on power, <span class="o">plainly written.</span></h1>
+    <p>Guides to wireless charging, battery capacity and travelling with lithium cells &#8212; written by the people who build the X6, without the marketing gloss.</p>
+    <div class="filter-row" role="group" aria-label="Filter posts by category">
+      <button class="chip active" data-cat="All">All</button>
+      <button class="chip" data-cat="Charging 101">Charging 101</button>
+      <button class="chip" data-cat="Travel">Travel</button>
+      <button class="chip" data-cat="Engineering">Engineering</button>
+    </div>
+  </div>
+</header>
+
+<section class="featured">
+  <div class="wrap">
+    <article class="featured-card reveal" data-cat="Travel">
+      <div class="featured-visual" aria-hidden="true">
+        <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a power bank cleared for carry-on baggage">
+<rect x="34" y="52" width="252" height="136" rx="18" fill="none" stroke="#A8AAD1" stroke-width="2.5" stroke-dasharray="10 8"/>
+<rect x="118" y="80" width="84" height="112" rx="14" fill="#3E4149" stroke="#54575F" stroke-width="2"/>
+<circle cx="160" cy="104" r="5" fill="#F5952E"/>
+<rect x="136" y="156" width="48" height="18" rx="5" fill="#23252B"/>
+<text x="160" y="169" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5952E">37Wh</text>
+<path d="M232 44 L272 62 L232 80 L242 62 Z" fill="#F5952E"/>
+<path d="M52 176 h44" stroke="#F5952E" stroke-width="3" stroke-linecap="round"/>
+<path d="M56 168 l8 8 l14 -16" stroke="#F5952E" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <span class="fv-plate">FEATURED // TRAVEL</span>
+      </div>
+      <div class="featured-body">
+        <span class="cat-tag ">Travel</span>
+        <h2><a href="power-bank-on-a-plane-100wh-rule/index.html">Can you bring a power bank on a plane? The 100 Wh rule, explained</a></h2>
+        <p>Power banks must fly in your carry-on, never checked baggage, and stay under 100 Wh. Here is how to convert mAh to Wh and check your bank in ten seconds.</p>
+        <div class="post-meta" style="margin-bottom:18px"><time datetime="2026-07-14">14 July 2026</time><i class="dot"></i>6 min read</div>
+        <a class="read-link" href="power-bank-on-a-plane-100wh-rule/">Read the guide
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="post-grid" id="postGrid">
+      <article class="post-card reveal" data-cat="Charging 101">
+        <div class="card-visual" aria-hidden="true"><svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration comparing rated capacity to delivered capacity">
+<rect x="40" y="66" width="240" height="34" rx="8" fill="#EBECF6" stroke="#A8AAD1" stroke-width="1.5"/>
+<rect x="40" y="66" width="240" height="34" rx="8" fill="#34388A" opacity=".25"/>
+<text x="46" y="58" font-family="JetBrains Mono, monospace" font-size="11" fill="#A8AAD1">RATED 10000 mAh</text>
+<rect x="40" y="140" width="240" height="34" rx="8" fill="#EBECF6" stroke="#A8AAD1" stroke-width="1.5"/>
+<rect x="40" y="140" width="158" height="34" rx="8" fill="#F5952E"/>
+<text x="46" y="132" font-family="JetBrains Mono, monospace" font-size="11" fill="#F5952E">DELIVERED ~6600 mAh</text>
+<text x="206" y="163" font-family="JetBrains Mono, monospace" font-size="12" fill="#23255C">66%</text>
+</svg></div>
+        <div class="card-body">
+          <span class="cat-tag ">Charging 101</span>
+          <h3><a href="mah-vs-real-capacity/index.html">Why a 10,000 mAh power bank does not charge your phone three times</a></h3>
+          <p>Rated capacity and delivered capacity are different numbers. Here is where the missing 30% goes, and how to work out how many charges you will actually get.</p>
+          <div class="post-meta"><time datetime="2026-07-07">7 July 2026</time><i class="dot"></i>5 min read</div>
+        </div>
+      </article>
+      <article class="post-card reveal" data-cat="Charging 101">
+        <div class="card-visual dark" aria-hidden="true"><svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a power bank charging a phone wirelessly">
+<rect x="96" y="18" width="128" height="204" rx="20" fill="#34388A"/>
+<rect x="104" y="26" width="112" height="188" rx="14" fill="#23255C"/>
+<g stroke="#F5952E" fill="none" stroke-width="3"><circle cx="160" cy="120" r="26" opacity=".9"/><circle cx="160" cy="120" r="44" opacity=".55"/><circle cx="160" cy="120" r="62" opacity=".25"/></g>
+<rect x="126" y="72" width="68" height="96" rx="12" fill="#3E4149" stroke="#54575F" stroke-width="2"/>
+<circle cx="160" cy="92" r="4" fill="#F5952E"/>
+<rect x="138" y="140" width="44" height="16" rx="4" fill="#23252B"/>
+<text x="160" y="152" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#F5952E">15W</text>
+</svg></div>
+        <div class="card-body">
+          <span class="cat-tag ">Charging 101</span>
+          <h3><a href="magnetic-vs-qi-wireless-charging/index.html">Magnetic vs Qi wireless charging: what the alignment actually does</a></h3>
+          <p>Wireless charging fails quietly when the coils are misaligned. Here is why magnets fixed the problem, and what works with which phone.</p>
+          <div class="post-meta"><time datetime="2026-06-28">28 June 2026</time><i class="dot"></i>5 min read</div>
+        </div>
+      </article>
+      <article class="post-card reveal" data-cat="Engineering">
+        <div class="card-visual" aria-hidden="true"><svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of Type-C fast charging over Power Delivery">
+<rect x="52" y="96" width="216" height="48" rx="24" fill="#EBECF6" stroke="#A8AAD1" stroke-width="1.5"/>
+<rect x="52" y="96" width="150" height="48" rx="24" fill="#F5952E"/>
+<path d="M150 74 L128 122 h20 l-8 44 l30 -52 h-20 l10 -40z" fill="#23255C"/>
+<rect x="64" y="112" width="24" height="16" rx="4" fill="#23255C"/>
+<text x="238" y="127" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#23255C">20W</text>
+<text x="60" y="80" font-family="JetBrains Mono, monospace" font-size="11" fill="#6B6D8C">USB PD // 0-50% IN ~30 MIN</text>
+</svg></div>
+        <div class="card-body">
+          <span class="cat-tag tech">Engineering</span>
+          <h3><a href="20w-pd-fast-charging-explained/index.html">20W Power Delivery, explained without the marketing</a></h3>
+          <p>What USB Power Delivery negotiates, why 20W is the sweet spot for phones, and why the last 20% of a charge is always slow.</p>
+          <div class="post-meta"><time datetime="2026-06-19">19 June 2026</time><i class="dot"></i>6 min read</div>
+        </div>
+      </article>
+      <article class="post-card reveal" data-cat="Engineering">
+        <div class="card-visual" aria-hidden="true"><svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of an aluminium shell dissipating heat">
+<rect x="112" y="46" width="96" height="148" rx="16" fill="#3E4149" stroke="#54575F" stroke-width="2"/>
+<rect x="122" y="56" width="76" height="128" rx="10" fill="none" stroke="#6B6D8C" stroke-width="1.2"/>
+<circle cx="160" cy="76" r="5" fill="#F5952E"/>
+<g stroke="#F5952E" stroke-width="3" stroke-linecap="round" opacity=".85">
+<path d="M96 92 q-16 14 0 28 q16 14 0 28"/><path d="M224 92 q16 14 0 28 q16 14 0 28"/>
+<path d="M72 104 q-14 12 0 24 q14 12 0 24" opacity=".5"/><path d="M248 104 q14 12 0 24 q14 12 0 24" opacity=".5"/>
+</g>
+<rect x="136" y="158" width="48" height="18" rx="5" fill="#23252B"/>
+<text x="160" y="171" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5952E">34&#176;C</text>
+</svg></div>
+        <div class="card-body">
+          <span class="cat-tag tech">Engineering</span>
+          <h3><a href="why-aluminium-power-bank-shell/index.html">Why we build the shell out of aluminium</a></h3>
+          <p>Plastic is cheaper and lighter. Aluminium moves heat, holds tolerance, and survives being carried every day. Here is the reasoning behind the material.</p>
+          <div class="post-meta"><time datetime="2026-06-10">10 June 2026</time><i class="dot"></i>4 min read</div>
+        </div>
+      </article>
+    </div>
+    <p id="noResults" class="post-meta" hidden style="padding-bottom:70px">No posts in this category yet.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="../" aria-label="Lynx home"><img src="../images/logo.png" alt="Lynx" width="120" height="50"></a>
+        <p>Slim, magnetic power for people who move. Designed with intent, built in aluminum.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/profile.php?id=61591834453431" target="_blank" rel="noopener" aria-label="LYNX on Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.62.77-1.62 1.56v1.88h2.76l-.44 2.9h-2.32V22C18.34 21.24 22 17.08 22 12.06z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/thelynxdigital" target="_blank" rel="noopener" aria-label="LYNX on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2"/><circle cx="12" cy="12" r="4.4"/><circle cx="17.4" cy="6.6" r="1.15" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="../index.html#product">The X6</a>
+        <a href="../index.html#specs">Specifications</a>
+        <a href="../index.html#certs">Certifications</a>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <a href="../blog/index.html">Blog</a>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../privacy/index.html">Privacy Policy</a>
+        <a href="mailto:support@lynxpower.co">support@lynxpower.co</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&#169; 2026 LYNX. All rights reserved.</span>
+      <span>CE // FCC // RoHS // MSDS // UN38.3</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* category filter */
+  var chips=document.querySelectorAll('.chip'),
+      cards=document.querySelectorAll('.post-card[data-cat],.featured-card[data-cat]'),
+      none=document.getElementById('noResults');
+  chips.forEach(function(c){
+    c.addEventListener('click',function(){
+      chips.forEach(function(x){x.classList.remove('active')});
+      c.classList.add('active');
+      var cat=c.dataset.cat,shown=0;
+      cards.forEach(function(card){
+        var ok=cat==='All'||card.dataset.cat===cat;
+        card.classList.toggle('hidden',!ok);
+        if(ok)shown++;
+      });
+      none.hidden=shown>0;
+    });
+  });
+  /* reveal on scroll */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
+</html>
